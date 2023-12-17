@@ -119,7 +119,17 @@ console.log(tour)
                         <article class="description-container">
                             <span>{tour.long_description}</span>
                         </article>
-                        <Slideshow></Slideshow>
+                        <Slideshow 
+                                            img1={tour.slide_img_one} 
+                                            alt1={tour.alt_text_one}
+                                            text1={tour.alt_text_one}
+                                            img2={tour.slide_img_two}
+                                            alt1={tour.alt_text_two}
+                                            text2={tour.alt_text_two}
+                                            img3={tour.slide_img_three}
+                                            alt3={tour.alt_text_three}
+                                            text3={tour.alt_text_three}
+                                            />
                     </div>
                 </section>
 			</div>
